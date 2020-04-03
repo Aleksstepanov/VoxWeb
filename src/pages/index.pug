@@ -4,4 +4,12 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title Document
   body
-    h1 Hello!
+    page.page__content-wrapper
+      .page__header-wrapper
+        include ../blocks/header/header.pug
+      h1.page__title Зимбабве
+      .page__tours-wrapper
+        include ../blocks/tour/tour-toskana/tour-toskana.pug
+        include ../blocks/tour/tour-island/tour-island.pug
+        include ../blocks/tour/tour-turkey/tour-turkey.pug
+        include ../blocks/tour/tour-norway/tour-norway.pug

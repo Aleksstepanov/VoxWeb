@@ -87,17 +87,17 @@ module.exports = {
             {//image
                 test : /\.(gif|img|png|jpg|jpeg|svg)$/,
                 exclude : [/fonts/],
-                loader : 'file-loader',
+                loader : 'url-loader',
                 options : {
-                    name : '[name].[ext]'
+                    name : '[path][name].[ext]'
                 }
             },
             {//fonts
                 test : /\.(eot|ttf|woff|woff2|otf|svg)/,
                 loader : 'file-loader',
-                exclude : [/image/],
+                exclude : [/img/],
                 options : {
-                  name : 'dist/assets/fonts/[name].[ext]'
+                  name : '[path][name].[ext]'
                 }
             },
             {//pug

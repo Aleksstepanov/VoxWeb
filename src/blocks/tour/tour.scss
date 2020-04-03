@@ -1,0 +1,74 @@
+.tour {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 60px;
+}
+.tour__img {
+  position: relative;
+  width: 380px;
+  height: 218px;
+}
+.tour__price {
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  background: #FFD241;
+  left: 0;
+  bottom: 0;
+}
+.tour__price-value {
+  font-family: 'MuseoSansCyrl-700';
+  font-size: 1.8rem;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+.tour__country {
+  font-family: 'MuseoSansCyrl-300';
+  font-size: 0.9rem;
+  line-height: 11px;
+  color: #C5B223;
+  text-transform: uppercase;
+}
+.tour__name {
+  font-family: 'MuseoSansCyrl-900';
+  font-size: 1.8rem;
+  line-height: 22px;
+  color: #000000;
+}
+.tour__route {
+  max-width: 380px;
+  font-family: 'MuseoSansCyrl-300';
+  font-size: .9rem;
+  line-height: 13px;
+  color: #8C8C8C;
+}
+.tour__duration {
+  font-family: 'MuseoSansCyrl-300';
+  font-size: .9rem;
+  line-height: 11px;
+  color: #000000;
+}
+.tour__stock {
+  display: flex;
+  width: 130px;
+  height: 17px;
+  background: #CB0037;
+  border-radius: 3px; 
+  justify-content: center;
+  align-items: center;
+}
+.tour__stock-value {
+  font-family:'MuseoSansCyrl-300';
+  font-size: .9rem;
+  line-height: 11px;
+  color: #FFFFFF;
+}
+.tour__stock-on {
+  visibility: visible;
+}
+.tour__stock-off {
+  visibility: hidden;
+}

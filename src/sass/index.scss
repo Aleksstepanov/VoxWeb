@@ -1,5 +1,28 @@
+@import '~normalize.css';
 @import 'fonts.scss';
+@import '../blocks/menu/menu.scss';
+@import '../blocks//header/header.scss';
+
+
 html {
+  font-size: 10px;
+}
+
+.page__content-wrapper {
+  max-width: 102.4rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.page__title {
   font-family: 'MuseoSansCyrl-900';
-  font-size: 32px;
+  font-size: 3.6rem;
+  line-height: 43px;
+  color: #000000;
+  text-align: center;
+}
+.page__tours-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

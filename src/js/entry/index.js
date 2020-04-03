@@ -1,1 +1,6 @@
 require('../../sass/index.scss')
+require('../../blocks/tour/tour.scss')
+require('../../blocks/tour/tour-toskana/tour-toskana.scss')
+require('../../blocks/tour/tour-island/tour-island.scss')
+require('../../blocks/tour/tour-norway/tour-norway.scss')
+require('../../blocks/tour/tour-turkey/tour-turkey.scss')
