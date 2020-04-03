@@ -1,0 +1,15 @@
+fieldset.travel
+    legend.travel__legend
+      span.travel__title О путешествии
+    ul.travel__list
+      li.travel__item
+        label(class="travel__country-label") Куда и когда хотите поехать?
+          span.travel__red *
+        br
+        input(class="travel__country" type="text")
+        br
+        span.travel__error Укажите континент, страну или город
+      li.travel__item
+        label(class="travel__date-label") Когда?
+        br
+        input(class="travel__date" type="date")

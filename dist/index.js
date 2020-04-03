@@ -155,6 +155,28 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "../node_modules/mini-css-extract-plugin/dist/loader.js?!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js?!../node_modules/sass-loader/dist/cjs.js!./blocks/communication/comminication.scss":
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/mini-css-extract-plugin/dist/loader.js??ref--5-1!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src??ref--5-3!../node_modules/sass-loader/dist/cjs.js!./blocks/communication/comminication.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n    if(false) { var cssReload; }\n  \n\n//# sourceURL=webpack:///./blocks/communication/comminication.scss?../node_modules/mini-css-extract-plugin/dist/loader.js??ref--5-1!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src??ref--5-3!../node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "../node_modules/mini-css-extract-plugin/dist/loader.js?!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js?!../node_modules/sass-loader/dist/cjs.js!./blocks/form/form.scss":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/mini-css-extract-plugin/dist/loader.js??ref--5-1!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src??ref--5-3!../node_modules/sass-loader/dist/cjs.js!./blocks/form/form.scss ***!
+  \****************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n    if(false) { var cssReload; }\n  \n\n//# sourceURL=webpack:///./blocks/form/form.scss?../node_modules/mini-css-extract-plugin/dist/loader.js??ref--5-1!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src??ref--5-3!../node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "../node_modules/mini-css-extract-plugin/dist/loader.js?!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js?!../node_modules/sass-loader/dist/cjs.js!./blocks/tour/tour-island/tour-island.scss":
 /*!***********************************************************************************************************************************************************************************************************************************************!*\
   !*** ../node_modules/mini-css-extract-plugin/dist/loader.js??ref--5-1!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src??ref--5-3!../node_modules/sass-loader/dist/cjs.js!./blocks/tour/tour-island/tour-island.scss ***!
@@ -210,6 +232,28 @@ eval("// extracted by mini-css-extract-plugin\n    if(false) { var cssReload; }\
 
 /***/ }),
 
+/***/ "../node_modules/mini-css-extract-plugin/dist/loader.js?!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js?!../node_modules/sass-loader/dist/cjs.js!./blocks/travel/travel.scss":
+/*!********************************************************************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/mini-css-extract-plugin/dist/loader.js??ref--5-1!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src??ref--5-3!../node_modules/sass-loader/dist/cjs.js!./blocks/travel/travel.scss ***!
+  \********************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n    if(false) { var cssReload; }\n  \n\n//# sourceURL=webpack:///./blocks/travel/travel.scss?../node_modules/mini-css-extract-plugin/dist/loader.js??ref--5-1!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src??ref--5-3!../node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "../node_modules/mini-css-extract-plugin/dist/loader.js?!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js?!../node_modules/sass-loader/dist/cjs.js!./blocks/user/user.scss":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/mini-css-extract-plugin/dist/loader.js??ref--5-1!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src??ref--5-3!../node_modules/sass-loader/dist/cjs.js!./blocks/user/user.scss ***!
+  \****************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n    if(false) { var cssReload; }\n  \n\n//# sourceURL=webpack:///./blocks/user/user.scss?../node_modules/mini-css-extract-plugin/dist/loader.js??ref--5-1!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src??ref--5-3!../node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "../node_modules/mini-css-extract-plugin/dist/loader.js?!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js?!../node_modules/sass-loader/dist/cjs.js!./sass/index.scss":
 /*!**********************************************************************************************************************************************************************************************************************!*\
   !*** ../node_modules/mini-css-extract-plugin/dist/loader.js??ref--5-1!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src??ref--5-3!../node_modules/sass-loader/dist/cjs.js!./sass/index.scss ***!
@@ -218,6 +262,28 @@ eval("// extracted by mini-css-extract-plugin\n    if(false) { var cssReload; }\
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("// extracted by mini-css-extract-plugin\n    if(false) { var cssReload; }\n  \n\n//# sourceURL=webpack:///./sass/index.scss?../node_modules/mini-css-extract-plugin/dist/loader.js??ref--5-1!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src??ref--5-3!../node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./blocks/communication/comminication.scss":
+/*!*************************************************!*\
+  !*** ./blocks/communication/comminication.scss ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/mini-css-extract-plugin/dist/loader.js??ref--5-1!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/postcss-loader/src??ref--5-3!../../../node_modules/sass-loader/dist/cjs.js!./comminication.scss */ \"../node_modules/mini-css-extract-plugin/dist/loader.js?!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js?!../node_modules/sass-loader/dist/cjs.js!./blocks/communication/comminication.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./blocks/communication/comminication.scss?");
+
+/***/ }),
+
+/***/ "./blocks/form/form.scss":
+/*!*******************************!*\
+  !*** ./blocks/form/form.scss ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/mini-css-extract-plugin/dist/loader.js??ref--5-1!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/postcss-loader/src??ref--5-3!../../../node_modules/sass-loader/dist/cjs.js!./form.scss */ \"../node_modules/mini-css-extract-plugin/dist/loader.js?!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js?!../node_modules/sass-loader/dist/cjs.js!./blocks/form/form.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./blocks/form/form.scss?");
 
 /***/ }),
 
@@ -276,6 +342,28 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 
 /***/ }),
 
+/***/ "./blocks/travel/travel.scss":
+/*!***********************************!*\
+  !*** ./blocks/travel/travel.scss ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/mini-css-extract-plugin/dist/loader.js??ref--5-1!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/postcss-loader/src??ref--5-3!../../../node_modules/sass-loader/dist/cjs.js!./travel.scss */ \"../node_modules/mini-css-extract-plugin/dist/loader.js?!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js?!../node_modules/sass-loader/dist/cjs.js!./blocks/travel/travel.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./blocks/travel/travel.scss?");
+
+/***/ }),
+
+/***/ "./blocks/user/user.scss":
+/*!*******************************!*\
+  !*** ./blocks/user/user.scss ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/mini-css-extract-plugin/dist/loader.js??ref--5-1!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/postcss-loader/src??ref--5-3!../../../node_modules/sass-loader/dist/cjs.js!./user.scss */ \"../node_modules/mini-css-extract-plugin/dist/loader.js?!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src/index.js?!../node_modules/sass-loader/dist/cjs.js!./blocks/user/user.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./blocks/user/user.scss?");
+
+/***/ }),
+
 /***/ "./js/entry/index.js":
 /*!***************************!*\
   !*** ./js/entry/index.js ***!
@@ -283,7 +371,7 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ../../sass/index.scss */ \"./sass/index.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour.scss */ \"./blocks/tour/tour.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-toskana/tour-toskana.scss */ \"./blocks/tour/tour-toskana/tour-toskana.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-island/tour-island.scss */ \"./blocks/tour/tour-island/tour-island.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-norway/tour-norway.scss */ \"./blocks/tour/tour-norway/tour-norway.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-turkey/tour-turkey.scss */ \"./blocks/tour/tour-turkey/tour-turkey.scss\")\n\n\n//# sourceURL=webpack:///./js/entry/index.js?");
+eval("__webpack_require__(/*! ../../sass/index.scss */ \"./sass/index.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour.scss */ \"./blocks/tour/tour.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-toskana/tour-toskana.scss */ \"./blocks/tour/tour-toskana/tour-toskana.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-island/tour-island.scss */ \"./blocks/tour/tour-island/tour-island.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-norway/tour-norway.scss */ \"./blocks/tour/tour-norway/tour-norway.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-turkey/tour-turkey.scss */ \"./blocks/tour/tour-turkey/tour-turkey.scss\")\n__webpack_require__(/*! ../../blocks/form/form.scss */ \"./blocks/form/form.scss\")\n__webpack_require__(/*! ../../blocks/user/user.scss */ \"./blocks/user/user.scss\")\n__webpack_require__(/*! ../../blocks/travel/travel.scss */ \"./blocks/travel/travel.scss\")\n__webpack_require__(/*! ../../blocks/communication/comminication.scss */ \"./blocks/communication/comminication.scss\")\n\n\n//# sourceURL=webpack:///./js/entry/index.js?");
 
 /***/ }),
 

@@ -1,0 +1,33 @@
+@import '../../sass//mixins.scss';
+.travel {
+  width: 100%;
+  display: flex;
+}
+.travel__title {
+  @extend %inputTitle
+}
+.travel__list {
+  display: flex;
+  margin-top: 34px;
+}
+.travel__item {
+  margin-right: 20px;
+}
+.travel__country-label {
+  @extend %label
+}
+.travel__red {
+  color: red;
+}
+.travel__country {
+  @extend %input
+}
+.travel__error {
+  @extend %errorText
+}
+.travel__date-label {
+  @extend %label
+}
+.travel__date {
+  @extend %input
+}

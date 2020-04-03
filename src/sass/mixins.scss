@@ -1,0 +1,39 @@
+%label {
+  font-family: 'MuseoSansCyrl-500';
+  font-size: 1rem;
+  line-height: 12px;
+  text-align: center;
+  color: #000000;
+}
+%input {
+  width: 380px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #E7E7E7;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+%inputTitle {
+  font-family: 'MuseoSansCyrl-700';
+  font-size: 1rem;
+  line-height: 12px;
+  color: #000000;
+  border-bottom: 2px solid #000000;
+}
+%errorText {
+  font-family: 'MuseoSansCyrl-300';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 12px;
+  color: #CB0037;
+}
+%checkbox {
+  width: 40px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #E7E7E7;
+  box-sizing: border-box;
+  border-radius: 3px;
+  color: #FFD241;
+}

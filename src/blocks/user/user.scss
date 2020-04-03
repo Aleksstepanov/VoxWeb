@@ -1,0 +1,29 @@
+@import '../../sass//mixins.scss';
+.user {
+  width: 100%;
+}
+.user__title {
+  @extend %inputTitle
+}
+.user__list {
+  display: flex;
+  margin-top: 34px;
+}
+.user__name-label {
+  @extend %label
+}
+.user__red {
+  color: red;
+}
+.user__item {
+  margin-right: 20px;
+}
+.user__name {
+  @extend %input
+}
+.user__phone-label {
+  @extend %label
+}
+.user__phone {
+  @extend %input
+}
