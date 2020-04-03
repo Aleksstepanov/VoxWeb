@@ -86,18 +86,18 @@ module.exports = {
             },
             {//image
                 test : /\.(gif|img|png|jpg|jpeg|svg)$/,
-                //exclude : [/fonts/],
+                exclude : [/fonts/],
                 loader : 'file-loader',
                 options : {
                     name : '[name].[ext]'
                 }
             },
             {//fonts
-                test : /\.(eot|ttf|woff|woff2)/,
+                test : /\.(eot|ttf|woff|woff2|otf|svg)/,
                 loader : 'file-loader',
-                //exclude : [/image/],
+                exclude : [/image/],
                 options : {
-                    name : '[name].[ext]'
+                  name : 'dist/assets/fonts/[name].[ext]'
                 }
             },
             {//pug
@@ -133,8 +133,24 @@ module.exports = {
                     to: path.join(__dirname, 'dist', 'assets', 'img')
                 },
                 {
-                    from: path.join(__dirname, 'src', 'assets', 'fonts'),
-                    to: path.join(__dirname, 'dist', 'assets', 'fonts')
+                    from: path.join(__dirname, 'src', 'assets', 'fonts', 'Museo Sans Cyrl', 'MuseoSansCyrlRegular100'),
+                    to: path.join(__dirname, 'dist', 'assets', 'fonts', 'Museo Sans Cyrl', 'MuseoSansCyrlRegular100')
+                },
+                {
+                  from: path.join(__dirname, 'src', 'assets', 'fonts', 'Museo Sans Cyrl', 'MuseoSansCyrlRegular300'),
+                  to: path.join(__dirname, 'dist', 'assets', 'fonts', 'Museo Sans Cyrl', 'MuseoSansCyrlRegular300')
+                },
+                {
+                  from: path.join(__dirname, 'src', 'assets', 'fonts', 'Museo Sans Cyrl', 'MuseoSansCyrlRegular500'),
+                  to: path.join(__dirname, 'dist', 'assets', 'fonts', 'Museo Sans Cyrl', 'MuseoSansCyrlRegular500')
+                },
+                {
+                  from: path.join(__dirname, 'src', 'assets', 'fonts', 'Museo Sans Cyrl', 'MuseoSansCyrlRegular700'),
+                  to: path.join(__dirname, 'dist', 'assets', 'fonts', 'Museo Sans Cyrl', 'MuseoSansCyrlRegular700')
+                },
+                {
+                  from: path.join(__dirname, 'src', 'assets', 'fonts', 'Museo Sans Cyrl', 'MuseoSansCyrlRegular900'),
+                  to: path.join(__dirname, 'dist', 'assets', 'fonts', 'Museo Sans Cyrl', 'MuseoSansCyrlRegular900')
                 }
 
             ]
