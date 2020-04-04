@@ -1,0 +1,49 @@
+@media screen and (max-width: 1000px) {
+  .page__tours-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tour {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .user__legend, .travel__legend {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .user__title, .travel__title {
+    max-width: 85px;
+  }
+  .user__list, .travel__list {
+    flex-direction: column;
+  }
+  .form__checkbox {
+    flex-direction: column;
+    align-items: center;
+    max-width: 780px;
+  }
+  .data__text {
+    max-width: 310px;
+  }
+  .form__field {
+    text-align: center;
+  }
+  .form__submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .tour {
+    justify-content: center;
+    align-items: center;
+  }
+  .user__legend, .travel__legend {
+    max-width: 320px;
+  }
+}
