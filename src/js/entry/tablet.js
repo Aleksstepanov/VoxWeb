@@ -1,0 +1,6 @@
+require('../../sass/tablet.scss')
+require('../../blocks/dropdown/dropdown.scss')
+require('../../blocks/dropdown/dropdown-country/dropdown-country.scss')
+require('../../blocks/dropdown/dropdown-date/dropdown-date.scss')
+require('../../blocks/dropdown/dropdown-type/dropdown-type.scss')
+require('../../blocks/button/button.scss')

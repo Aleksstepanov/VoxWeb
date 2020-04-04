@@ -148,7 +148,7 @@
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push(["./js/entry/index.js","vendors~index"]);
+/******/ 	deferredModules.push(["./js/entry/index.js","vendors~index~tablet"]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })

@@ -11,7 +11,8 @@ const webpack = require('webpack');
 module.exports = {
     context : path.resolve(__dirname, 'src'),
     entry : {
-        index : './js/entry/index.js'
+        index : './js/entry/index.js',
+        tablet: './js/entry/tablet.js'
         
     },
     output : {
@@ -126,6 +127,18 @@ module.exports = {
             reloadAll : true
             }
         ),
+        new HtmlWebpackPlugin(
+          {
+            hash : false,
+						minify : false,
+            template : './pages/tablet.pug',
+            filename : 'tablet.html',
+            minify : {
+                collapseWhitespace : isProv
+            },
+            hmr : true,
+            reloadAll : true 
+          }),
         new CopyWebpackPlugin(
             [
                 {
