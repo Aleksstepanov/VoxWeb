@@ -1,28 +1,29 @@
 @import '../../sass/mixins.scss';
-.communication {
+.about {
   width: 45%;
 }
-.communication__title {
+.about__title {
   @extend %inputTitle
 }
-.communication__list {
+.about__list {
   display: flex;
   flex-direction: row;
 }
-.communication__item {
+.about__item {
   margin-right: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.communication__label {
+.about__label {
   @extend %label;
+  max-width: 91px;
 }
-.communication__checkbox {
+.about__checkbox {
   display: none;
 }
-.communication__checkbox-label {
+.about__checkbox-label {
   display: block;
   width: 40px;
   height: 40px;
@@ -32,19 +33,19 @@
   cursor: pointer;
   margin-top: 10px;
 }
-.communication__checkbox:checked + .communication__checkbox-new::after{
+.about__checkbox:checked + .about__checkbox-new::after{
   height: 40px;
   width: 40px;
   border-radius: 4px;
 }
-.communication__checkbox-new {
+.about__checkbox-new {
     width: 40px;
     height: 40px;
     border-radius: 4px;
     position: relative;
     
 }
-.communication__checkbox-new::after {
+.about__checkbox-new::after {
   content: "";
   display: block;
   background-image: url('/dist/assets/img/Vector.svg');

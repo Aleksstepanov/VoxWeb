@@ -9,14 +9,20 @@ fieldset.communication
           input(class="communication__checkbox" type="checkbox" id="viber")
           .communication__checkbox-new
       li.communication__item    
-        label(class="communication__label") whatsupp
+        span(class="communication__label") whatsupp
         br
-        input(class="communication__checkbox" type="checkbox")
+        label(class="communication__checkbox-label" for="whatsupp")
+          input(class="communication__checkbox" type="checkbox" id="whatsupp")
+          .communication__checkbox-new
       li.communication__item 
-        label(class="communication__label") почта
+        span(class="communication__label") почта
         br
-        input(class="communication__checkbox" type="checkbox")
+        label(class="communication__checkbox-label" for="email")
+          input(class="communication__checkbox" type="checkbox" id="email")
+          .communication__checkbox-new
       li.communication__item
-        label(class="communication__label") телефон
+        span(class="communication__label") телефон
         br
-        input(class="communication__checkbox" type="checkbox")
+        label(class="communication__checkbox-label" for="phone")
+          input(class="communication__checkbox" type="checkbox" id="phone")
+          .communication__checkbox-new

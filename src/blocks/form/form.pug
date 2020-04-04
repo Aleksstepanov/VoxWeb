@@ -4,22 +4,11 @@ form.form
     include ../travel/travel.pug
   .form__checkbox
     include ../communication/communication.pug
-    fieldset.about
-      legend.about__legend
-      ul.about__list
-        li.about__item
-          label(class="label") интернет
-          br
-          input(class="about__country" type="checkbox")
-        li.about__item
-          label(class="label") рекомендовали друзья
-          br
-          input(class="about__country" type="checkbox")
-        li.about__item
-          label(class="label") соц. сети
-          br
-          input(class="about__country" type="checkbox")
-        li.about__item
-          label(class="label") уже ездил
-          br
-          input(class="about__country" type="checkbox")
+    include ../about/about.pug
+  .form__consent
+    include ../data/data.pug
+  .form__field
+    span.form__red *
+    span.form__text Поля, которые надо обязательно заполнить
+  .form__submit
+    include ../submit/submit.pug

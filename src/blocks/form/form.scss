@@ -11,10 +11,33 @@ ul {
   align-items: center;
   justify-content: center;
 }
+.form__info {
+  max-width: 780px;
+}
 .form__checkbox {
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: center;
+  justify-content: space-between;
+  max-width: 780px;
+}
+.form__field {
+  max-width: 780px;
+  width: 100%;
+}
+.form__red {
+  color: red;
+}
+.form__text {
+  font-family: 'MuseoSansCyrl-300';
+  font-size: 1rem;
+  line-height: 12px;
+  color: #C1C1C1;
+}
+.form__submit {
+  max-width: 780px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 164px;
 }
 
