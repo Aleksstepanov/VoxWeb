@@ -14,10 +14,11 @@ require('../../blocks/submit/submit.scss')
 require('../../sass/media.scss')
 
 require('./tablet');
-require('../../../node_modules/materialize-css/dist/js/materialize')
 
+require('../../../node_modules/materialize-css/dist/js/materialize')
 require('../datepicker')
 
+require('../../blocks/menu/menu')
 document.addEventListener('DOMContentLoaded', function() {
   let elems = document.querySelectorAll('.sidenav');
   let instances = M.Sidenav.init(elems);
