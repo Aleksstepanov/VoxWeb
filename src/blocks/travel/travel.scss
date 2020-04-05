@@ -19,7 +19,7 @@
 .travel__red {
   color: red;
 }
-.travel__country {
+#country {
   @extend %input
 }
 .travel__error {

@@ -12,3 +12,17 @@ require('../../blocks/about/about.scss')
 require('../../blocks/data/data.scss')
 require('../../blocks/submit/submit.scss')
 require('../../sass/media.scss')
+
+require('./tablet');
+require('../../../node_modules/materialize-css/dist/js/materialize')
+
+require('../datepicker')
+
+document.addEventListener('DOMContentLoaded', function() {
+  let elems = document.querySelectorAll('.sidenav');
+  let instances = M.Sidenav.init(elems);
+  instances.open()
+});
+
+
+

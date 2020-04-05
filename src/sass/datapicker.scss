@@ -1,0 +1,28 @@
+.datepicker-cancel, .datepicker-done {
+  display: none;;
+}
+.datepicker-modal {
+  width: 320px;
+  border-radius: 29.5px;
+  font-family: 'MuseoSansCyrl-500';
+  font-size: 1.2rem;
+  line-height: 14px;
+}
+.tablet__dropdown__date .datepicker-container {
+  //@at-root: none;
+  flex-wrap: wrap;
+  background: #fff;
+  border-radius: 29.5px;
+  justify-content: center;
+}
+.datepicker-date-display {
+    color: black;
+    background: #fff;
+}
+.year-text {
+  color: black;
+}
+.datepicker-date-display {
+  text-align: center;
+}
+

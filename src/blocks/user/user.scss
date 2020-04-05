@@ -18,12 +18,12 @@
 .user__item {
   margin-right: 20px;
 }
-.user__name {
+#name {
   @extend %input
 }
 .user__phone-label {
   @extend %label
 }
-.user__phone {
+#phone {
   @extend %input
 }

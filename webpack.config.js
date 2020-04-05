@@ -127,18 +127,18 @@ module.exports = {
             reloadAll : true
             }
         ),
-        new HtmlWebpackPlugin(
-          {
-            hash : false,
-						minify : false,
-            template : './pages/tablet.pug',
-            filename : 'tablet.html',
-            minify : {
-                collapseWhitespace : isProv
-            },
-            hmr : true,
-            reloadAll : true 
-          }),
+        //new HtmlWebpackPlugin(
+        //  {
+        //    hash : false,
+				//		minify : false,
+        //    template : './pages/tablet.pug',
+        //    filename : 'tablet.html',
+        //    minify : {
+        //        collapseWhitespace : isProv
+        //    },
+        //    hmr : true,
+        //    reloadAll : true 
+        //  }),
         new CopyWebpackPlugin(
             [
                 {
@@ -169,10 +169,10 @@ module.exports = {
             ]
         ),
         new webpack.ProvidePlugin({
-            Vue: 'vue',
-            vue: 'vue',
-
-          })
+          $: "jquery/dist/jquery.min.js",
+          jQuery: "jquery/dist/jquery.min.js",
+          "window.jQuery": "jquery/dist/jquery.min.js"
+        })
         //new CleanWebpackPlugin (),
 
 

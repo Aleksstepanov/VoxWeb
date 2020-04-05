@@ -148,7 +148,7 @@
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push(["./js/entry/index.js","vendors~index~tablet"]);
+/******/ 	deferredModules.push(["./js/entry/index.js","vendors~index~tablet","vendors~index","index~tablet"]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })
@@ -441,6 +441,17 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 
 /***/ }),
 
+/***/ "./js/datepicker.js":
+/*!**************************!*\
+  !*** ./js/datepicker.js ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("  document.addEventListener('DOMContentLoaded', function() {\n    let elems = document.querySelectorAll('.datepicker');\n    let options = {\n      i18n: {\n        months: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],\n        weekdaysShort: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],\n        weekdaysAbbrev: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],\n      },\n      autoClose: true,\n      defaultDate: new Date(),\n      setDefaultDate: true,\n      disableWeekends: false,\n      firstDay: 1,\n      \n      //container: elems,\n    }\n    let instances = M.Datepicker.init(elems, options);\n  });\n\n\n\n//# sourceURL=webpack:///./js/datepicker.js?");
+
+/***/ }),
+
 /***/ "./js/entry/index.js":
 /*!***************************!*\
   !*** ./js/entry/index.js ***!
@@ -448,7 +459,7 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ../../sass/index.scss */ \"./sass/index.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour.scss */ \"./blocks/tour/tour.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-toskana/tour-toskana.scss */ \"./blocks/tour/tour-toskana/tour-toskana.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-island/tour-island.scss */ \"./blocks/tour/tour-island/tour-island.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-norway/tour-norway.scss */ \"./blocks/tour/tour-norway/tour-norway.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-turkey/tour-turkey.scss */ \"./blocks/tour/tour-turkey/tour-turkey.scss\")\n__webpack_require__(/*! ../../blocks/form/form.scss */ \"./blocks/form/form.scss\")\n__webpack_require__(/*! ../../blocks/user/user.scss */ \"./blocks/user/user.scss\")\n__webpack_require__(/*! ../../blocks/travel/travel.scss */ \"./blocks/travel/travel.scss\")\n__webpack_require__(/*! ../../blocks/communication/comminication.scss */ \"./blocks/communication/comminication.scss\")\n__webpack_require__(/*! ../../blocks/about/about.scss */ \"./blocks/about/about.scss\")\n__webpack_require__(/*! ../../blocks/data/data.scss */ \"./blocks/data/data.scss\")\n__webpack_require__(/*! ../../blocks/submit/submit.scss */ \"./blocks/submit/submit.scss\")\n__webpack_require__(/*! ../../sass/media.scss */ \"./sass/media.scss\")\n\n\n//# sourceURL=webpack:///./js/entry/index.js?");
+eval("__webpack_require__(/*! ../../sass/index.scss */ \"./sass/index.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour.scss */ \"./blocks/tour/tour.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-toskana/tour-toskana.scss */ \"./blocks/tour/tour-toskana/tour-toskana.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-island/tour-island.scss */ \"./blocks/tour/tour-island/tour-island.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-norway/tour-norway.scss */ \"./blocks/tour/tour-norway/tour-norway.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-turkey/tour-turkey.scss */ \"./blocks/tour/tour-turkey/tour-turkey.scss\")\n__webpack_require__(/*! ../../blocks/form/form.scss */ \"./blocks/form/form.scss\")\n__webpack_require__(/*! ../../blocks/user/user.scss */ \"./blocks/user/user.scss\")\n__webpack_require__(/*! ../../blocks/travel/travel.scss */ \"./blocks/travel/travel.scss\")\n__webpack_require__(/*! ../../blocks/communication/comminication.scss */ \"./blocks/communication/comminication.scss\")\n__webpack_require__(/*! ../../blocks/about/about.scss */ \"./blocks/about/about.scss\")\n__webpack_require__(/*! ../../blocks/data/data.scss */ \"./blocks/data/data.scss\")\n__webpack_require__(/*! ../../blocks/submit/submit.scss */ \"./blocks/submit/submit.scss\")\n__webpack_require__(/*! ../../sass/media.scss */ \"./sass/media.scss\")\n\n__webpack_require__(/*! ./tablet */ \"./js/entry/tablet.js\");\n__webpack_require__(/*! ../../../node_modules/materialize-css/dist/js/materialize */ \"../node_modules/materialize-css/dist/js/materialize.js\")\n\n__webpack_require__(/*! ../datepicker */ \"./js/datepicker.js\")\n\ndocument.addEventListener('DOMContentLoaded', function() {\n  let elems = document.querySelectorAll('.sidenav');\n  let instances = M.Sidenav.init(elems);\n  instances.open()\n});\n\n\n\n\n\n//# sourceURL=webpack:///./js/entry/index.js?");
 
 /***/ }),
 
