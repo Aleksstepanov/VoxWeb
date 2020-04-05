@@ -1,5 +1,5 @@
 .datepicker-cancel, .datepicker-done {
-  display: none;;
+  display: none;
 }
 .datepicker-modal {
   width: 320px;
@@ -8,7 +8,7 @@
   font-size: 1.2rem;
   line-height: 14px;
 }
-.tablet__dropdown__date .datepicker-container {
+.tablet__dropdown__date, .datepicker-container {
   //@at-root: none;
   flex-wrap: wrap;
   background: #fff;

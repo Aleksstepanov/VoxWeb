@@ -342,18 +342,6 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 
 /***/ }),
 
-/***/ "./blocks/dropdown/dropdown-country/dropdown-country.data.js":
-/*!*******************************************************************!*\
-  !*** ./blocks/dropdown/dropdown-country/dropdown-country.data.js ***!
-  \*******************************************************************/
-/*! exports provided: data */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"data\", function() { return data; });\nlet data = [\n  {\n    continent: \"Южная Америка\",\n    country: ['Аргентина', \"Бразилия\", \"Перу\", \"Уругвай\", \"Чили\", \"Эквадор\"]\n  },\n  {\n    continent: \"Северная Америка\",\n    country: ['Аргентина', \"Бразилия\", \"Перу\", \"Уругвай\", \"Чили\", \"Эквадор\"]\n  },\n  {\n    continent: \"Арктика и Антарктика\",\n    country: ['Аргентина', \"Бразилия\", \"Перу\", \"Уругвай\", \"Чили\", \"Эквадор\"]\n  },\n  {\n    continent: \"Африка\",\n    country: ['Аргентина', \"Бразилия\", \"Перу\", \"Уругвай\", \"Чили\", \"Эквадор\"]\n  },\n  {\n    continent: \"Австралия и Океания\",\n    country: ['Аргентина', \"Бразилия\", \"Перу\", \"Уругвай\", \"Чили\", \"Эквадор\"]\n  },\n  {\n    continent: \"Европа\",\n    country: ['Аргентина', \"Бразилия\", \"Перу\", \"Уругвай\", \"Чили\", \"Эквадор\"]\n  },\n  {\n    continent: \"Россия\",\n    country: ['Аргентина', \"Бразилия\", \"Перу\", \"Уругвай\", \"Чили\", \"Эквадор\"]\n  },\n  {\n    continent: \"Азия\",\n    country: ['Аргентина', \"Бразилия\", \"Перу\", \"Уругвай\", \"Чили\", \"Эквадор\"]\n  },\n]\n\n\n\n\n//# sourceURL=webpack:///./blocks/dropdown/dropdown-country/dropdown-country.data.js?");
-
-/***/ }),
-
 /***/ "./blocks/dropdown/dropdown-country/dropdown-country.js":
 /*!**************************************************************!*\
   !*** ./blocks/dropdown/dropdown-country/dropdown-country.js ***!
@@ -362,19 +350,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _dropdown_country_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./dropdown-country.data */ \"./blocks/dropdown/dropdown-country/dropdown-country.data.js\");\n\ndocument.addEventListener('DOMContentLoaded', function() {\n  let countryTour = document.querySelector('.dropdown-country')\n  _dropdown_country_data__WEBPACK_IMPORTED_MODULE_0__[\"data\"].forEach((elem) => {\n    let group = document.createElement('optgroup')\n    group.label = elem.continent\n    countryTour.append(group)\n    elem.country.forEach((elem) => {\n      let option = document.createElement('option')\n      option.text = elem\n      option.value = elem\n      document.querySelector('.dropdown-country > optgroup:last-child').append(option)\n    })\n  })\n\n  let elems = document.querySelectorAll('select');\n  let instances = M.FormSelect.init(elems, {classes: \"dropdown dropdown-country\"});\n});\n\n\n\n\n//# sourceURL=webpack:///./blocks/dropdown/dropdown-country/dropdown-country.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_entry_date_dropdown_country_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../js/entry/date/dropdown-country.data */ \"./js/entry/date/dropdown-country.data.js\");\n\ndocument.addEventListener('DOMContentLoaded', function() {\n  let countryTour = document.querySelector('.dropdown-country')\n  _js_entry_date_dropdown_country_data__WEBPACK_IMPORTED_MODULE_0__[\"data\"].forEach((elem) => {\n    let group = document.createElement('optgroup')\n    group.label = elem.continent\n    countryTour.append(group)\n    elem.country.forEach((elem) => {\n      let option = document.createElement('option')\n      option.text = elem\n      option.value = elem\n      document.querySelector('.dropdown-country > optgroup:last-child').append(option)\n    })\n  })\n\n  let elems = document.querySelectorAll('select');\n  let instances = M.FormSelect.init(elems, {classes: \"dropdown dropdown-country\"});\n});\n\n\n\n\n//# sourceURL=webpack:///./blocks/dropdown/dropdown-country/dropdown-country.js?");
 
 /***/ }),
 
-/***/ "./blocks/dropdown/dropdown-type/dropdown-type.data.js":
-/*!*************************************************************!*\
-  !*** ./blocks/dropdown/dropdown-type/dropdown-type.data.js ***!
-  \*************************************************************/
-/*! exports provided: data */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./blocks/dropdown/dropdown-date/datepicker.js":
+/*!*****************************************************!*\
+  !*** ./blocks/dropdown/dropdown-date/datepicker.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"data\", function() { return data; });\nlet data = ['Активный', 'Майские', 'На авто', 'На корабле', 'Новый год', 'Поход', 'Серфинг', 'Эксклюзив', '\"Экскурсионный', 'Экспедиция']\n\n\n//# sourceURL=webpack:///./blocks/dropdown/dropdown-type/dropdown-type.data.js?");
+eval("  document.addEventListener('DOMContentLoaded', function() {\n    let elems = document.querySelectorAll('.datepicker');\n    let options = {\n      i18n: {\n        months: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],\n        weekdaysShort: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],\n        weekdaysAbbrev: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],\n      },\n      autoClose: true,\n      defaultDate: new Date(),\n      setDefaultDate: true,\n      disableWeekends: false,\n      firstDay: 1,\n      \n    }\n    let instances = M.Datepicker.init(elems, options);\n  });\n\n\n\n//# sourceURL=webpack:///./blocks/dropdown/dropdown-date/datepicker.js?");
 
 /***/ }),
 
@@ -386,7 +373,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _dropdown_type_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./dropdown-type.data */ \"./blocks/dropdown/dropdown-type/dropdown-type.data.js\");\n\ndocument.addEventListener('DOMContentLoaded', function() {\n  let typeTour = document.querySelector('.dropdown-type')\n  _dropdown_type_data__WEBPACK_IMPORTED_MODULE_0__[\"data\"].forEach((elem) => {\n    let option = document.createElement('option')\n    option.text = elem\n    option.value = elem\n    typeTour.append(option)\n    })\n\n  let elems = document.querySelectorAll('.dropdown-type');\n  let instances = M.FormSelect.init(elems, {classes: \"dropdown dropdown-type\"});\n});\n\n\n\n\n//# sourceURL=webpack:///./blocks/dropdown/dropdown-type/dropdown-type.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_entry_date_dropdown_type_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../js/entry/date/dropdown-type.data */ \"./js/entry/date/dropdown-type.data.js\");\n\ndocument.addEventListener('DOMContentLoaded', function() {\n  let typeTour = document.querySelector('.dropdown-type')\n  _js_entry_date_dropdown_type_data__WEBPACK_IMPORTED_MODULE_0__[\"data\"].forEach((elem) => {\n    let option = document.createElement('option')\n    option.text = elem\n    option.value = elem\n    typeTour.append(option)\n    })\n\n  let elems = document.querySelectorAll('.dropdown-type');\n  let instances = M.FormSelect.init(elems, {classes: \"dropdown dropdown-type\"});\n});\n\n\n\n\n//# sourceURL=webpack:///./blocks/dropdown/dropdown-type/dropdown-type.js?");
 
 /***/ }),
 
@@ -409,6 +396,18 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 /***/ (function(module, exports) {
 
 eval("\ndocument.addEventListener('DOMContentLoaded', function() {\n  var elems = document.querySelectorAll('.sidenav');\n  var instances = M.Sidenav.init(elems, {edge: 'right'});\n   \n});\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./blocks/menu/menu.js?");
+
+/***/ }),
+
+/***/ "./blocks/submit/submit.js":
+/*!*********************************!*\
+  !*** ./blocks/submit/submit.js ***!
+  \*********************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_newUser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../js/newUser */ \"./js/newUser.js\");\n/* harmony import */ var _js_entry_date_DomVariables__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../js/entry/date/DomVariables */ \"./js/entry/date/DomVariables.js\");\n\n\nconst requestURL = '#' //url для отправки данных на сервер\n\nfunction sendRequest(method, url, body=null) {\n  return new Promise((resolve, reject) => {\n      const xhr = new XMLHttpRequest();\n      xhr.open(method, url);\n      xhr.responseType = 'json';\n      xhr.setRequestHeader('Content-Type', 'application/json');\n      xhr.onload = () => {\n        if (xhr.status >= 400) {\n          reject(xhr.response);\n        }\n        else {\n          resolve(xhr.response);\n        }\n      xhr.onerror = () => {\n        reject(xhr.response);\n      }\n      }\t\t\n      xhr.send(JSON.stringify(body));\n  })\n  \n}\n\ndocument.querySelector('.submit').addEventListener('click', submitClickHandler)\nfunction submitClickHandler(event) {\n  event.preventDefault();\n  const user = new _js_newUser__WEBPACK_IMPORTED_MODULE_0__[\"newUser\"]({\n    name : _js_entry_date_DomVariables__WEBPACK_IMPORTED_MODULE_1__[\"Dom\"].name.value,\n    phone: _js_entry_date_DomVariables__WEBPACK_IMPORTED_MODULE_1__[\"Dom\"].country.value\n  })\n  console.log(user.name)\n  console.log(_js_entry_date_DomVariables__WEBPACK_IMPORTED_MODULE_1__[\"Dom\"])\n}\n\n\n//# sourceURL=webpack:///./blocks/submit/submit.js?");
 
 /***/ }),
 
@@ -500,14 +499,39 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 
 /***/ }),
 
-/***/ "./js/datepicker.js":
-/*!**************************!*\
-  !*** ./js/datepicker.js ***!
-  \**************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./js/entry/date/DomVariables.js":
+/*!***************************************!*\
+  !*** ./js/entry/date/DomVariables.js ***!
+  \***************************************/
+/*! exports provided: Dom */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("  document.addEventListener('DOMContentLoaded', function() {\n    let elems = document.querySelectorAll('.datepicker');\n    let options = {\n      i18n: {\n        months: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],\n        weekdaysShort: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],\n        weekdaysAbbrev: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],\n      },\n      autoClose: true,\n      defaultDate: new Date(),\n      setDefaultDate: true,\n      disableWeekends: false,\n      firstDay: 1,\n      \n    }\n    let instances = M.Datepicker.init(elems, options);\n  });\n\n\n\n//# sourceURL=webpack:///./js/datepicker.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Dom\", function() { return Dom; });\nconst Dom = {\n  name: document.querySelector('.user__name'),\n  phone: document.querySelector('user__phone'),\n  country: document.querySelector('.travel__country'),\n  date: document.querySelector('.travel__date'),\n  viber: document.querySelector('#viber'),\n  whatsupp: document.querySelector('#whatsupp'),\n  mail: document.querySelector('#email'),\n  phone: document.querySelector('#phone'),\n  internet: document.querySelector('#internet'),\n  friend: document.querySelector('#friend'),\n  social: document.querySelector('#social'),\n  client: document.querySelector('#client'),\n  data: document.querySelector('#data'),\n  personal: document.querySelector('#personal')\n}\n\n\n//# sourceURL=webpack:///./js/entry/date/DomVariables.js?");
+
+/***/ }),
+
+/***/ "./js/entry/date/dropdown-country.data.js":
+/*!************************************************!*\
+  !*** ./js/entry/date/dropdown-country.data.js ***!
+  \************************************************/
+/*! exports provided: data */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"data\", function() { return data; });\nlet data = [\n  {\n    continent: \"Южная Америка\",\n    country: ['Аргентина', \"Бразилия\", \"Перу\", \"Уругвай\", \"Чили\", \"Эквадор\"]\n  },\n  {\n    continent: \"Северная Америка\",\n    country: ['Аргентина', \"Бразилия\", \"Перу\", \"Уругвай\", \"Чили\", \"Эквадор\"]\n  },\n  {\n    continent: \"Арктика и Антарктика\",\n    country: ['Аргентина', \"Бразилия\", \"Перу\", \"Уругвай\", \"Чили\", \"Эквадор\"]\n  },\n  {\n    continent: \"Африка\",\n    country: ['Аргентина', \"Бразилия\", \"Перу\", \"Уругвай\", \"Чили\", \"Эквадор\"]\n  },\n  {\n    continent: \"Австралия и Океания\",\n    country: ['Аргентина', \"Бразилия\", \"Перу\", \"Уругвай\", \"Чили\", \"Эквадор\"]\n  },\n  {\n    continent: \"Европа\",\n    country: ['Аргентина', \"Бразилия\", \"Перу\", \"Уругвай\", \"Чили\", \"Эквадор\"]\n  },\n  {\n    continent: \"Россия\",\n    country: ['Аргентина', \"Бразилия\", \"Перу\", \"Уругвай\", \"Чили\", \"Эквадор\"]\n  },\n  {\n    continent: \"Азия\",\n    country: ['Аргентина', \"Бразилия\", \"Перу\", \"Уругвай\", \"Чили\", \"Эквадор\"]\n  },\n]\n\n\n\n\n//# sourceURL=webpack:///./js/entry/date/dropdown-country.data.js?");
+
+/***/ }),
+
+/***/ "./js/entry/date/dropdown-type.data.js":
+/*!*********************************************!*\
+  !*** ./js/entry/date/dropdown-type.data.js ***!
+  \*********************************************/
+/*! exports provided: data */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"data\", function() { return data; });\nlet data = ['Активный', 'Майские', 'На авто', 'На корабле', 'Новый год', 'Поход', 'Серфинг', 'Эксклюзив', '\"Экскурсионный', 'Экспедиция']\n\n\n//# sourceURL=webpack:///./js/entry/date/dropdown-type.data.js?");
 
 /***/ }),
 
@@ -518,7 +542,19 @@ eval("  document.addEventListener('DOMContentLoaded', function() {\n    let elem
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ../../sass/index.scss */ \"./sass/index.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour.scss */ \"./blocks/tour/tour.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-toskana/tour-toskana.scss */ \"./blocks/tour/tour-toskana/tour-toskana.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-island/tour-island.scss */ \"./blocks/tour/tour-island/tour-island.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-norway/tour-norway.scss */ \"./blocks/tour/tour-norway/tour-norway.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-turkey/tour-turkey.scss */ \"./blocks/tour/tour-turkey/tour-turkey.scss\")\n__webpack_require__(/*! ../../blocks/form/form.scss */ \"./blocks/form/form.scss\")\n__webpack_require__(/*! ../../blocks/user/user.scss */ \"./blocks/user/user.scss\")\n__webpack_require__(/*! ../../blocks/travel/travel.scss */ \"./blocks/travel/travel.scss\")\n__webpack_require__(/*! ../../blocks/communication/comminication.scss */ \"./blocks/communication/comminication.scss\")\n__webpack_require__(/*! ../../blocks/about/about.scss */ \"./blocks/about/about.scss\")\n__webpack_require__(/*! ../../blocks/data/data.scss */ \"./blocks/data/data.scss\")\n__webpack_require__(/*! ../../blocks/submit/submit.scss */ \"./blocks/submit/submit.scss\")\n__webpack_require__(/*! ../../sass/media.scss */ \"./sass/media.scss\")\n\n__webpack_require__(/*! ./tablet */ \"./js/entry/tablet.js\");\n\n__webpack_require__(/*! ../../../node_modules/materialize-css/dist/js/materialize */ \"../node_modules/materialize-css/dist/js/materialize.js\")\n__webpack_require__(/*! ../datepicker */ \"./js/datepicker.js\")\n__webpack_require__(/*! ../../blocks/dropdown/dropdown-country/dropdown-country */ \"./blocks/dropdown/dropdown-country/dropdown-country.js\")\n__webpack_require__(/*! ../../blocks/dropdown/dropdown-type/dropdown-type */ \"./blocks/dropdown/dropdown-type/dropdown-type.js\")\n\n__webpack_require__(/*! ../../blocks/menu/menu */ \"./blocks/menu/menu.js\")\n\n\n\n\n\n\n//# sourceURL=webpack:///./js/entry/index.js?");
+eval("__webpack_require__(/*! ../../sass/index.scss */ \"./sass/index.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour.scss */ \"./blocks/tour/tour.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-toskana/tour-toskana.scss */ \"./blocks/tour/tour-toskana/tour-toskana.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-island/tour-island.scss */ \"./blocks/tour/tour-island/tour-island.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-norway/tour-norway.scss */ \"./blocks/tour/tour-norway/tour-norway.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-turkey/tour-turkey.scss */ \"./blocks/tour/tour-turkey/tour-turkey.scss\")\n__webpack_require__(/*! ../../blocks/form/form.scss */ \"./blocks/form/form.scss\")\n__webpack_require__(/*! ../../blocks/user/user.scss */ \"./blocks/user/user.scss\")\n__webpack_require__(/*! ../../blocks/travel/travel.scss */ \"./blocks/travel/travel.scss\")\n__webpack_require__(/*! ../../blocks/communication/comminication.scss */ \"./blocks/communication/comminication.scss\")\n__webpack_require__(/*! ../../blocks/about/about.scss */ \"./blocks/about/about.scss\")\n__webpack_require__(/*! ../../blocks/data/data.scss */ \"./blocks/data/data.scss\")\n__webpack_require__(/*! ../../blocks/submit/submit.scss */ \"./blocks/submit/submit.scss\")\n__webpack_require__(/*! ../../sass/media.scss */ \"./sass/media.scss\")\n\n__webpack_require__(/*! ./tablet */ \"./js/entry/tablet.js\");\n\n__webpack_require__(/*! ../../../node_modules/materialize-css/dist/js/materialize */ \"../node_modules/materialize-css/dist/js/materialize.js\")\n__webpack_require__(/*! ../../blocks/dropdown/dropdown-date/datepicker */ \"./blocks/dropdown/dropdown-date/datepicker.js\")\n__webpack_require__(/*! ../../blocks/dropdown/dropdown-country/dropdown-country */ \"./blocks/dropdown/dropdown-country/dropdown-country.js\")\n__webpack_require__(/*! ../../blocks/dropdown/dropdown-type/dropdown-type */ \"./blocks/dropdown/dropdown-type/dropdown-type.js\")\n__webpack_require__(/*! ../../blocks/submit/submit */ \"./blocks/submit/submit.js\")\n\n__webpack_require__(/*! ../../blocks/menu/menu */ \"./blocks/menu/menu.js\")\n\n\n\n\n\n\n//# sourceURL=webpack:///./js/entry/index.js?");
+
+/***/ }),
+
+/***/ "./js/newUser.js":
+/*!***********************!*\
+  !*** ./js/newUser.js ***!
+  \***********************/
+/*! exports provided: newUser */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"newUser\", function() { return newUser; });\nclass newUser {\n  constructor(options) {\n    this.name = options.name, \n    this.phone = options.phone, \n    this.country = options.country, \n    this.date = options.date,\n    this.social = options.social,\n    this.about = options.about,\n    this.news = options.news,\n    this.personal = options.personal\n  }\n\n  isValidName() {\n    return this.name.length>3\n  }\n  \n  isValidPhone() {\n    \n  }\n  \n}\n\n\n//# sourceURL=webpack:///./js/newUser.js?");
 
 /***/ }),
 

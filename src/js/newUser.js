@@ -1,4 +1,4 @@
-class newUser {
+export class newUser {
   constructor(options) {
     this.name = options.name, 
     this.phone = options.phone, 
@@ -11,7 +11,7 @@ class newUser {
   }
 
   isValidName() {
-    return this.name.length>
+    return this.name.length>3
   }
   
   isValidPhone() {

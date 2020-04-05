@@ -1,4 +1,4 @@
-import {data} from './dropdown-type.data'
+import {data} from '../../../js/entry/date/dropdown-type.data'
 document.addEventListener('DOMContentLoaded', function() {
   let typeTour = document.querySelector('.dropdown-type')
   data.forEach((elem) => {

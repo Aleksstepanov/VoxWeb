@@ -1,4 +1,4 @@
-import {data} from './dropdown-country.data'
+import {data} from '../../../js/entry/date/dropdown-country.data'
 document.addEventListener('DOMContentLoaded', function() {
   let countryTour = document.querySelector('.dropdown-country')
   data.forEach((elem) => {

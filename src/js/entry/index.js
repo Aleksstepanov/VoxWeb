@@ -16,9 +16,10 @@ require('../../sass/media.scss')
 require('./tablet');
 
 require('../../../node_modules/materialize-css/dist/js/materialize')
-require('../datepicker')
+require('../../blocks/dropdown/dropdown-date/datepicker')
 require('../../blocks/dropdown/dropdown-country/dropdown-country')
 require('../../blocks/dropdown/dropdown-type/dropdown-type')
+require('../../blocks/submit/submit')
 
 require('../../blocks/menu/menu')
 
