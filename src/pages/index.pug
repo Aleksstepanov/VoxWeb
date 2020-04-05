@@ -4,10 +4,9 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title Document
   body
-    page.page__content-wrapper
+    page(class="page__content-wrapper")
       .page__header-wrapper
         include ../blocks/header/header.pug
-      include ./tablet.pug
       h1.page__title Зимбабве
       .page__tours-wrapper
         include ../blocks/tour/tour-toskana/tour-toskana.pug

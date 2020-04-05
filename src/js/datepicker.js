@@ -12,7 +12,6 @@
       disableWeekends: false,
       firstDay: 1,
       
-      //container: elems,
     }
     let instances = M.Datepicker.init(elems, options);
   });

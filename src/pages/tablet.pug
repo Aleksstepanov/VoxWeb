@@ -1,23 +1,25 @@
-.tablet
-  .tablet__exit
+ul(class="sidenav tablet" id="slide-out")
+  li.tablet__exit
     include ../blocks/exit/exit.pug
-  .tablet__dropdown__country
+  li.tablet__dropdown__country
     include ../blocks/dropdown/dropdown-country/dropdown-country.pug
-  .tablet__dropdown__date
+  li.tablet__dropdown__date
     include ../blocks/dropdown/dropdown-date/dropdown-date.pug
-  .tablet__dropdown__type
+  li.tablet__dropdown__type
     include ../blocks/dropdown/dropdown-type/dropdown-type.pug
-  .tablet__dropdown__btn-search
+  li.tablet__dropdown__btn-search
     include ../blocks/button/button-search/button-search.pug
-  ul.tablet__list
-    li.tablet__item
-      a(class="tablet__elem" href="#") Путешествия
-    li.tablet__item
-      a(class="tablet__elem" href="#") О нас
-    li.tablet__item
-      a(class="tablet__elem" href="#") Отзывы
-    li.tablet__item
-      a(class="tablet__elem" href="#") Блог
-  p.tablet__phone +7 (495) 123-45-67
-  .tablet__btn-selection
+  li
+    ul.tablet__list
+      li.tablet__item
+        a(class="tablet__elem" href="#") Путешествия
+      li.tablet__item
+        a(class="tablet__elem" href="#") О нас
+      li.tablet__item
+        a(class="tablet__elem" href="#") Отзывы
+      li.tablet__item
+        a(class="tablet__elem" href="#") Блог
+  li
+    p.tablet__phone +7 (495) 123-45-67
+  li.tablet__btn-selection
     include ../blocks/button/button-selection/button-selection.pug

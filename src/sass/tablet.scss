@@ -1,24 +1,19 @@
 @import "fonts.scss";
 @import "~normalize.css";
-//@import "../../node_modules/materialize-css/sass/components/color-variables";
-//@import "../../node_modules/materialize-css/sass/components/variables";
-//
-//@import "../../node_modules/materialize-css/sass/components/color-classes";
-//@import "../../node_modules/materialize-css/sass/components/global";
-//
-//@import "../../node_modules/materialize-css/sass/components/datepicker";
 @import "./materialize/materialize.scss";
-//@import "datapicker.scss";
+@import "datapicker.scss";
 
 .tablet {
   min-width: 320px;
   max-width: 375px;
-  max-height: 745px;
+  height: auto;
+  max-height: 900px;
   background: #FFD241;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .tablet__exit {
   margin-top: 22px;
   display: flex;
