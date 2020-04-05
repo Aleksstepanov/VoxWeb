@@ -362,7 +362,31 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _dropdown_country_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./dropdown-country.data */ \"./blocks/dropdown/dropdown-country/dropdown-country.data.js\");\n\nlet countryTour = document.querySelector('dropdown-country')\n_dropdown_country_data__WEBPACK_IMPORTED_MODULE_0__[\"data\"].forEach((elem) => {\n  \n  console.log(countryTour)\n  \n})\n\n\n//# sourceURL=webpack:///./blocks/dropdown/dropdown-country/dropdown-country.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _dropdown_country_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./dropdown-country.data */ \"./blocks/dropdown/dropdown-country/dropdown-country.data.js\");\n\ndocument.addEventListener('DOMContentLoaded', function() {\n  let countryTour = document.querySelector('.dropdown-country')\n  _dropdown_country_data__WEBPACK_IMPORTED_MODULE_0__[\"data\"].forEach((elem) => {\n    let group = document.createElement('optgroup')\n    group.label = elem.continent\n    countryTour.append(group)\n    elem.country.forEach((elem) => {\n      let option = document.createElement('option')\n      option.text = elem\n      option.value = elem\n      document.querySelector('.dropdown-country > optgroup:last-child').append(option)\n    })\n  })\n\n  let elems = document.querySelectorAll('select');\n  let instances = M.FormSelect.init(elems, {classes: \"dropdown dropdown-country\"});\n});\n\n\n\n\n//# sourceURL=webpack:///./blocks/dropdown/dropdown-country/dropdown-country.js?");
+
+/***/ }),
+
+/***/ "./blocks/dropdown/dropdown-type/dropdown-type.data.js":
+/*!*************************************************************!*\
+  !*** ./blocks/dropdown/dropdown-type/dropdown-type.data.js ***!
+  \*************************************************************/
+/*! exports provided: data */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"data\", function() { return data; });\nlet data = ['Активный', 'Майские', 'На авто', 'На корабле', 'Новый год', 'Поход', 'Серфинг', 'Эксклюзив', '\"Экскурсионный', 'Экспедиция']\n\n\n//# sourceURL=webpack:///./blocks/dropdown/dropdown-type/dropdown-type.data.js?");
+
+/***/ }),
+
+/***/ "./blocks/dropdown/dropdown-type/dropdown-type.js":
+/*!********************************************************!*\
+  !*** ./blocks/dropdown/dropdown-type/dropdown-type.js ***!
+  \********************************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _dropdown_type_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./dropdown-type.data */ \"./blocks/dropdown/dropdown-type/dropdown-type.data.js\");\n\ndocument.addEventListener('DOMContentLoaded', function() {\n  let typeTour = document.querySelector('.dropdown-type')\n  _dropdown_type_data__WEBPACK_IMPORTED_MODULE_0__[\"data\"].forEach((elem) => {\n    let option = document.createElement('option')\n    option.text = elem\n    option.value = elem\n    typeTour.append(option)\n    })\n\n  let elems = document.querySelectorAll('.dropdown-type');\n  let instances = M.FormSelect.init(elems, {classes: \"dropdown dropdown-type\"});\n});\n\n\n\n\n//# sourceURL=webpack:///./blocks/dropdown/dropdown-type/dropdown-type.js?");
 
 /***/ }),
 
@@ -494,7 +518,7 @@ eval("  document.addEventListener('DOMContentLoaded', function() {\n    let elem
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ../../sass/index.scss */ \"./sass/index.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour.scss */ \"./blocks/tour/tour.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-toskana/tour-toskana.scss */ \"./blocks/tour/tour-toskana/tour-toskana.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-island/tour-island.scss */ \"./blocks/tour/tour-island/tour-island.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-norway/tour-norway.scss */ \"./blocks/tour/tour-norway/tour-norway.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-turkey/tour-turkey.scss */ \"./blocks/tour/tour-turkey/tour-turkey.scss\")\n__webpack_require__(/*! ../../blocks/form/form.scss */ \"./blocks/form/form.scss\")\n__webpack_require__(/*! ../../blocks/user/user.scss */ \"./blocks/user/user.scss\")\n__webpack_require__(/*! ../../blocks/travel/travel.scss */ \"./blocks/travel/travel.scss\")\n__webpack_require__(/*! ../../blocks/communication/comminication.scss */ \"./blocks/communication/comminication.scss\")\n__webpack_require__(/*! ../../blocks/about/about.scss */ \"./blocks/about/about.scss\")\n__webpack_require__(/*! ../../blocks/data/data.scss */ \"./blocks/data/data.scss\")\n__webpack_require__(/*! ../../blocks/submit/submit.scss */ \"./blocks/submit/submit.scss\")\n__webpack_require__(/*! ../../sass/media.scss */ \"./sass/media.scss\")\n\n__webpack_require__(/*! ./tablet */ \"./js/entry/tablet.js\");\n\n__webpack_require__(/*! ../../../node_modules/materialize-css/dist/js/materialize */ \"../node_modules/materialize-css/dist/js/materialize.js\")\n__webpack_require__(/*! ../datepicker */ \"./js/datepicker.js\")\n__webpack_require__(/*! ../../blocks/dropdown/dropdown-country/dropdown-country */ \"./blocks/dropdown/dropdown-country/dropdown-country.js\")\n\n__webpack_require__(/*! ../../blocks/menu/menu */ \"./blocks/menu/menu.js\")\n\n\n\n\n\n\n//# sourceURL=webpack:///./js/entry/index.js?");
+eval("__webpack_require__(/*! ../../sass/index.scss */ \"./sass/index.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour.scss */ \"./blocks/tour/tour.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-toskana/tour-toskana.scss */ \"./blocks/tour/tour-toskana/tour-toskana.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-island/tour-island.scss */ \"./blocks/tour/tour-island/tour-island.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-norway/tour-norway.scss */ \"./blocks/tour/tour-norway/tour-norway.scss\")\n__webpack_require__(/*! ../../blocks/tour/tour-turkey/tour-turkey.scss */ \"./blocks/tour/tour-turkey/tour-turkey.scss\")\n__webpack_require__(/*! ../../blocks/form/form.scss */ \"./blocks/form/form.scss\")\n__webpack_require__(/*! ../../blocks/user/user.scss */ \"./blocks/user/user.scss\")\n__webpack_require__(/*! ../../blocks/travel/travel.scss */ \"./blocks/travel/travel.scss\")\n__webpack_require__(/*! ../../blocks/communication/comminication.scss */ \"./blocks/communication/comminication.scss\")\n__webpack_require__(/*! ../../blocks/about/about.scss */ \"./blocks/about/about.scss\")\n__webpack_require__(/*! ../../blocks/data/data.scss */ \"./blocks/data/data.scss\")\n__webpack_require__(/*! ../../blocks/submit/submit.scss */ \"./blocks/submit/submit.scss\")\n__webpack_require__(/*! ../../sass/media.scss */ \"./sass/media.scss\")\n\n__webpack_require__(/*! ./tablet */ \"./js/entry/tablet.js\");\n\n__webpack_require__(/*! ../../../node_modules/materialize-css/dist/js/materialize */ \"../node_modules/materialize-css/dist/js/materialize.js\")\n__webpack_require__(/*! ../datepicker */ \"./js/datepicker.js\")\n__webpack_require__(/*! ../../blocks/dropdown/dropdown-country/dropdown-country */ \"./blocks/dropdown/dropdown-country/dropdown-country.js\")\n__webpack_require__(/*! ../../blocks/dropdown/dropdown-type/dropdown-type */ \"./blocks/dropdown/dropdown-type/dropdown-type.js\")\n\n__webpack_require__(/*! ../../blocks/menu/menu */ \"./blocks/menu/menu.js\")\n\n\n\n\n\n\n//# sourceURL=webpack:///./js/entry/index.js?");
 
 /***/ }),
 
