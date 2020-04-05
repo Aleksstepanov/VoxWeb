@@ -11,7 +11,7 @@ class newUser {
   }
 
   isValidName() {
-    return this.name.length>3
+    return this.name.length>
   }
   
   isValidPhone() {

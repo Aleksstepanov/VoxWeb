@@ -17,6 +17,7 @@ require('./tablet');
 
 require('../../../node_modules/materialize-css/dist/js/materialize')
 require('../datepicker')
+require('../../blocks/dropdown/dropdown-country/dropdown-country')
 
 require('../../blocks/menu/menu')
 
