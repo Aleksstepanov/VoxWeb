@@ -350,7 +350,7 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_entry_date_dropdown_country_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../js/entry/date/dropdown-country.data */ \"./js/entry/date/dropdown-country.data.js\");\n\ndocument.addEventListener('DOMContentLoaded', function() {\n  let countryTour = document.querySelector('.dropdown-country')\n  _js_entry_date_dropdown_country_data__WEBPACK_IMPORTED_MODULE_0__[\"data\"].forEach((elem) => {\n    let group = document.createElement('optgroup')\n    group.label = elem.continent\n    countryTour.append(group)\n    elem.country.forEach((elem) => {\n      let option = document.createElement('option')\n      option.text = elem\n      option.value = elem\n      document.querySelector('.dropdown-country > optgroup:last-child').append(option)\n    })\n  })\n\n  let elems = document.querySelectorAll('select');\n  let instances = M.FormSelect.init(elems, {classes: \"dropdown dropdown-country\"});\n});\n\n\n\n\n//# sourceURL=webpack:///./blocks/dropdown/dropdown-country/dropdown-country.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_unit_create_country__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../js/unit/create-country */ \"./js/unit/create-country.js\");\n//import {data} from '../../../js/entry/date/dropdown-country.data'\n//document.addEventListener('DOMContentLoaded', function() {\n//  let countryTour = document.querySelector('.dropdown-country')\n//  data.forEach((elem) => {\n//    let group = document.createElement('optgroup')\n//    group.label = elem.continent\n//    countryTour.append(group)\n//    elem.country.forEach((elem) => {\n//      let option = document.createElement('option')\n//      option.text = elem\n//      option.value = elem\n//      document.querySelector('.dropdown-country > optgroup:last-child').append(option)\n//    })\n//  })\n//\n//  let elems = document.querySelectorAll('select');\n//  let instances = M.FormSelect.init(elems, {classes: \"dropdown dropdown-country\"});\n//});\n\ndocument.addEventListener('DOMContentLoaded', function() {\n  Object(_js_unit_create_country__WEBPACK_IMPORTED_MODULE_0__[\"createCountry\"])('dropdown-country')\n  let elems = document.querySelectorAll('select');\n  let instances = M.FormSelect.init(elems, {classes: \"dropdown dropdown-country\"});\n})\n\n\n\n//# sourceURL=webpack:///./blocks/dropdown/dropdown-country/dropdown-country.js?");
 
 /***/ }),
 
@@ -555,6 +555,18 @@ eval("__webpack_require__(/*! ../../sass/index.scss */ \"./sass/index.scss\")\n_
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"newUser\", function() { return newUser; });\nclass newUser {\n  constructor(options) {\n    this.name = options.name, \n    this.phone = options.phone, \n    this.country = options.country, \n    this.date = options.date,\n    this.social = options.social,\n    this.about = options.about,\n    this.news = options.news,\n    this.personal = options.personal\n  }\n\n  isValidName() {\n    return this.name.length>3\n  }\n  \n  isValidPhone() {\n    \n  }\n  \n}\n\n\n//# sourceURL=webpack:///./js/newUser.js?");
+
+/***/ }),
+
+/***/ "./js/unit/create-country.js":
+/*!***********************************!*\
+  !*** ./js/unit/create-country.js ***!
+  \***********************************/
+/*! exports provided: createCountry */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"createCountry\", function() { return createCountry; });\n/* harmony import */ var _entry_date_dropdown_country_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../entry/date/dropdown-country.data */ \"./js/entry/date/dropdown-country.data.js\");\n\r\nfunction createCountry(selectName) {\r\n    if (document.querySelector('.'+selectName).length == 0) {\r\n        _entry_date_dropdown_country_data__WEBPACK_IMPORTED_MODULE_0__[\"data\"].forEach((elem) => {\r\n            let group = document.createElement('optgroup')\r\n            group.label = elem.continent\r\n            document.createElement('optgroup').append(group)\r\n            elem.country.forEach((elem) => {\r\n              let option = document.createElement('option')\r\n              option.text = elem\r\n              option.value = elem\r\n              document.querySelector('.'+selectName.Name+ '> optgroup:last-child').append(option)\r\n            })\r\n          })\r\n    }\r\n}\r\n//let countryTour = document.querySelector('.dropdown-country')\r\n  \n\n//# sourceURL=webpack:///./js/unit/create-country.js?");
 
 /***/ }),
 
