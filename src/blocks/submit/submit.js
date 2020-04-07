@@ -1,6 +1,6 @@
 import {newUser} from '../../js/newUser'
 import {Dom} from '../../js/entry/date/DomVariables'
-const requestURL = '#' //url для отправки данных на сервер
+const requestURL = 'http://jsonplaceholder.typicode.com/users' //url для отправки данных на сервер
 
 function sendRequest(method, url, body=null) {
   return new Promise((resolve, reject) => {
@@ -54,6 +54,15 @@ function submitClickHandler(event) {
   if (!user.isValidCountry()) {
     document.querySelector('.travel__error').style.display = 'block'
     document.querySelector('.travel__country-error').style.border = '2px solid #CB0037'
+  }
+  if (!user.personal.personal) {
+    M.toast({html: 'Необходимо дать согласие на обработку персональных данных!'})
+  }
+  
+  if (user.isValidName() && user.personal.personal && user.isValidCountry()) {
+    sendRequest('POST', requestURL, user)
+    console.log(user)
+    M.toast({html: 'Ваша заявка отправлена'})
   }
  
 }
