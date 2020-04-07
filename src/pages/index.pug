@@ -5,14 +5,16 @@ html(lang="en")
     link(href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet")
     title Document
   body
-    page(class="page__content-wrapper")
+    div(class="page__content-wrapper")
       .page__header-wrapper
         include ../blocks/header/header.pug
       h1.page__title Зимбабве
       .page__tours-wrapper
-        include ../blocks/tour/tour-toskana/tour-toskana.pug
-        include ../blocks/tour/tour-island/tour-island.pug
-        include ../blocks/tour/tour-turkey/tour-turkey.pug
-        include ../blocks/tour/tour-norway/tour-norway.pug
+        .page__tours-line
+          include ../blocks/tour/tour-toskana/tour-toskana.pug
+          include ../blocks/tour/tour-island/tour-island.pug
+        .page__tours-line
+          include ../blocks/tour/tour-turkey/tour-turkey.pug
+          include ../blocks/tour/tour-norway/tour-norway.pug
       h2.page__title-form Заявка на подбор путеешествия
       include ../blocks/form/form.pug   

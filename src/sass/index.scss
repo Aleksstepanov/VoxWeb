@@ -24,7 +24,11 @@ html {
 }
 .page__tours-wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+}
+.page__tours-line {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 .page__title-form {
