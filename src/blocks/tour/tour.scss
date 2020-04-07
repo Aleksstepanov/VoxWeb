@@ -1,13 +1,14 @@
 .tour {
-  width: 40%;
+  //width: 40%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 60px;
+  margin-right: 20px;
 }
 .tour__img {
   position: relative;
-  width: 320px;
+  width: 380px;
   height: 218px;
 }
 .tour__price {
