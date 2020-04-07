@@ -19,7 +19,7 @@ export class newUser {
     return pattern.test(this.phone)
   }
   isValidCountry() {
-    return this.country.value == ''
+    return this.country.value === ''
   }
   isValidPersonal() {
     return this.personal.checked

@@ -22,6 +22,7 @@ require('../../blocks/dropdown/dropdown-type/dropdown-type')
 require('../../blocks/travel/travel')
 require('../../blocks/submit/submit')
 require('../../blocks/user/user')
+require('../validFormHandler')
 
 require('../../blocks/menu/menu')
 

@@ -54,7 +54,6 @@ function submitClickHandler(event) {
   if (!user.isValidCountry()) {
     document.querySelector('.travel__error').style.display = 'block'
     document.querySelector('.travel__country-error').style.border = '2px solid #CB0037'
-    console.log(document.querySelector('.select-wrapper'))
   }
  
 }
