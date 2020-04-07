@@ -7,9 +7,11 @@ fieldset.travel
             span.travel__red *
           br
           select(class="travel__country" type="text" id="country")
+            option(class="placeholder" value="" disabled selected)     Континент, страна или город
           br
           span.travel__error Укажите континент, страну или город
         li.travel__item
           label(class="travel__date-label") Когда?
           br
           input(class="travel__date datepicker" type="text" id="date")
+          small(class="travle-error") Укажите континент, страну или город

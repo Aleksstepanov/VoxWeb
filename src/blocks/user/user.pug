@@ -7,7 +7,8 @@ fieldset.user
           span.user__red *
         br
         input(class="user__name validate" type="text" name="user__name" id="name")
+        small(class="user__error") Введите имя
       li.user__item
         label(class="user__phone-label") Телефон
         br
-        input(class="user__phone validate" type="text" id="phone" pattern="(\+7[-_()\s]+|\+7\s?[(]{0,1}[0-9]{3}[)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2})")
+        input(class="user__phone" type="text" id="phone")

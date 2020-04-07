@@ -27,3 +27,12 @@
 #phone {
   @extend %input
 }
+.user__error {
+  display: none;
+  font-family: 'MuseoSansCyrl-300';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 12px;
+  color: #CB0037;
+}

@@ -29,8 +29,32 @@ function submitClickHandler(event) {
   event.preventDefault();
   const user = new newUser({
     name : Dom.name.value,
-    phone: Dom.country.value
+    phone: Dom.phone.value,
+    country: Dom.country.value,
+    date: Dom.date.date,
+    social: {
+              'viber': Dom.viber.checked, 
+              'whatsupp': Dom.whatsupp.checked, 
+              'mail': Dom.mail.checked, 
+              'mobile': Dom.mobile.checked
+            },
+    about: {
+              'internet': Dom.internet.checked,
+              'friend': Dom.friend.checked,
+              'network': Dom.networks.checked,
+              'client': Dom.client.checked
+            },
+    news: {'news': Dom.data.checked},
+    personal: {'personal': Dom.personal.checked}
   })
-  console.log(user.name)
-  console.log(Dom)
+  if (!user.isValidName()) {
+    document.querySelector('.user__error').style.display = 'block'
+    Dom.name.style.border = '1px solid #CB0037'
+  }
+  if (!user.isValidCountry()) {
+    document.querySelector('.travel__error').style.display = 'block'
+    document.querySelector('.travel__country-error').style.border = '2px solid #CB0037'
+    console.log(document.querySelector('.select-wrapper'))
+  }
+ 
 }

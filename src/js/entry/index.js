@@ -21,6 +21,7 @@ require('../../blocks/dropdown/dropdown-country/dropdown-country')
 require('../../blocks/dropdown/dropdown-type/dropdown-type')
 require('../../blocks/travel/travel')
 require('../../blocks/submit/submit')
+require('../../blocks/user/user')
 
 require('../../blocks/menu/menu')
 

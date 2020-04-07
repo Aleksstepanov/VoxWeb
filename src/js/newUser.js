@@ -15,7 +15,14 @@ export class newUser {
   }
   
   isValidPhone() {
-    
+    let pattern = /^\d[\d\(\)\ -]{4,14}\d$/
+    return pattern.test(this.phone)
+  }
+  isValidCountry() {
+    return this.country.value == ''
+  }
+  isValidPersonal() {
+    return this.personal.checked
   }
   
 }

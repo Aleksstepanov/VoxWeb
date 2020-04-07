@@ -31,3 +31,30 @@
 #date {
   @extend %input
 }
+.travel__country {
+  @extend %input;
+  text-align: left;
+}
+.travel__country input {
+  text-align: left;
+}
+.placeholder {
+  font-family: 'MuseoSansCyrl-100';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 12px;
+  color: #8C8C8C;
+}
+.travel__error {
+  display: none;
+  font-family: 'MuseoSansCyrl-300';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1куь;
+  line-height: 12px;
+  color: #CB0037;
+}
+.travel__error-red {
+  border: '1px solid #CB0037';
+}
