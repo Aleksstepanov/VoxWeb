@@ -40,6 +40,15 @@
     flex-direction: row;
     justify-content: center;
   }
+  .tour {
+    margin-right: 0;
+  }
+  .user__name, .user__phone, .travel__country, .travel__date {
+    width: 300px;
+  }
+  #name, #phone, #country, #date {
+    width: 300px;
+  }
 }
 
 @media screen and (max-width: 520px) {
